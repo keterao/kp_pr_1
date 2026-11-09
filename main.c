@@ -5,8 +5,6 @@
 int main() {
 #ifdef _WIN32
     printf("Running on Windows\n");
-#elif defined(__linux__)
-    printf("Running on Linux\n");
 #else
     printf("Unknown OS\n");
 #endif
