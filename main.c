@@ -3,8 +3,6 @@
 #include "array_process.h"
 
 int main() {
-#ifdef _WIN32
-    printf("Running on Windows\n");
 #elif defined(__linux__)
     printf("Running on Linux\n");
 #else
